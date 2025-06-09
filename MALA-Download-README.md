@@ -1,8 +1,3 @@
-# M365-Apps-Log-Agent aka MALA
-A set of scripts that can be deployed from MECM(SCCM), Intune or other deployment solutions that can push out PowerShell scripts 
-
-Here is a **Markdown-formatted guide** for using **Script 1: Download the Office C2R Log Collector and place it in `C:\mala`**:
-
 ---
 
 # 🧰 How to Download and Extract the Office C2R Log Collector to `C:\mala`
