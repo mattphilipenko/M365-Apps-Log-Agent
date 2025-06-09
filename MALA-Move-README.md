@@ -1,5 +1,3 @@
-Here is a **Markdown-formatted guide** for using **Script 4: Move C2RLogs from Temp to `C:\mala`**:
-
 ---
 
 # 📦 How to Move Office C2R Logs from Temp to `C:\mala\C2RLogs`
