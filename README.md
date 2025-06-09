@@ -1,4 +1,4 @@
-# 🗂️ Overview of Office C2R Log Collection Script Guides
+# 🗂️ M365 Apps Log Agent Overview
 
 - **MALA-Download**
   - Downloads the OfficeC2RLogCollector installer from Microsoft.
