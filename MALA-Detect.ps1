@@ -1,4 +1,4 @@
-﻿# Script 2: Check if logs exist in C:\mala\C2RLogs
+# Script 2: Check if logs exist in C:\mala\C2RLogs
 
 $c2rLogsPath = "C:\mala\C2RLogs"
 $username = $env:USERNAME

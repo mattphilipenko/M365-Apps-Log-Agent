@@ -1,6 +1,6 @@
-﻿# Script 4: Move C2RLogs from temp to C:\mala
+# Script 4: Move C2RLogs from temp to C:\mala
 
-$tempLogPath = "C:\Users\mattp\AppData\Local\Temp\C2RLogs"
+$tempLogPath = Join-Path $env:USERPROFILE "AppData\Local\Temp\C2RLogs"
 $destinationPath = "C:\mala"
 
 if (Test-Path $tempLogPath) {

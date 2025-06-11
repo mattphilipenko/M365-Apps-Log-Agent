@@ -15,12 +15,11 @@ The script checks for the existence of the `C2RLogs` folder in the user's temp d
 ## 🧾 Script Breakdown
 
 ```powershell
-$tempLogPath = "C:\Users\mattp\AppData\Local\Temp\C2RLogs"
+$tempLogPath = Join-Path $env:USERPROFILE "AppData\Local\Temp\C2RLogs"
 $destinationPath = "C:\mala"
 ```
 
-* Defines the source and target directories.
-* Customize the username (`mattp`) as needed based on the machine.
+* Defines the source and target directories using the current user's profile.
 
 ---
 
@@ -73,8 +72,7 @@ if (Test-Path $tempLogPath) {
 ## ▶️ How to Use the Script
 
 1. **Open PowerShell as Administrator**
-2. **Modify the script** if necessary to match your username in the path.
-3. **Run the script** by pasting it into PowerShell or saving it as a `.ps1` file:
+2. **Run the script** by pasting it into PowerShell or saving it as a `.ps1` file:
 
    ```powershell
    .\MoveC2RLogs.ps1
