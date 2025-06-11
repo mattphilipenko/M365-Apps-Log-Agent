@@ -1,4 +1,4 @@
-﻿# Script 3: Run OfficeC2RLogCollector if logs don't exist
+# Script 3: Run OfficeC2RLogCollector if logs don't exist
 
 $malaPath = "C:\mala"
 $exePath = Join-Path $malaPath "OfficeC2RLogCollector.exe"

@@ -1,4 +1,4 @@
-﻿# Script 1: Download the log collector and place it in C:\mala
+# Script 1: Download the log collector and place it in C:\mala
 
 # Define variables
 $downloadUrl = "https://download.microsoft.com/download/2/d/9/2d9f7837-c440-42ca-86f8-9d46cd332c8c/officedeploymentlogcollector.exe"
